@@ -32,7 +32,7 @@ class Awham:
 		self.Error = 0
 		self.Good = 0
 		self.aa = True
-		for i in range (5):
+		for i in range (10):
 			threading.Thread (target=self.jj_8t).start()
 			
 	def jj_8t(self):
